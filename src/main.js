@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import iconComponent from './components/svgSprites/Icon'
-
-Vue.component('icon', iconComponent)
+import '@/utils/svg-icons'
 
 Vue.config.productionTip = false
 
